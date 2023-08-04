@@ -31,18 +31,4 @@ class ProductsViewSet(viewsets.ModelViewSet):
     ]
     serializer_class = ProductsCompanySerializer
 
-# class CompanyViewSet(viewsets.ModelViewSet):
-#     queryset = Company.objects.all()
-#     permissions_classes = [
-#         permissions.AllowAny
-#     ]
-#     serializer_class = CompanySerializer
-#
-#
-# class ProductsViewSet(viewsets.ModelViewSet):
-#     queryset = Products.objects.all()
-#     permissions_classes = [
-#         permissions.AllowAny
-#     ]
-#     serializer_class = ProductsSerializer
 
