@@ -44,24 +44,3 @@ class Products(models.Model):
     def __str__(self):
         return self.name_product
 
-
-
-
-# Создание и сохранение объектов
-# org1 = Organization(name_organization='Company Inc', description='Some description')
-# org1.save()
-#
-# org2 = Organization(name_organization='Tech Solutions', description='Tech company')
-# org2.save()
-#
-# company1 = Company(district='Some district', organization_id=org1, description='Company description')
-# company1.save()
-#
-# company2 = Company(district='Another district', organization_id=org2, description='Tech company description')
-# company2.save()
-#
-# product1 = Products(district='Some district', company_id=company1, category='Category1', name_product='Product1', price=10.99, description='Product description')
-# product1.save()
-#
-# product2 = Products(district='Another district', company_id=company2, category='Category2', name_product='Product2', price=5.99, description='Another product description')
-# product2.save()
